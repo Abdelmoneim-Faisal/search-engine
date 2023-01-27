@@ -10,7 +10,7 @@ import pandas as pd
 #Declaring variables to be used in tokenization proccess.
 tokonizedWords = []
 extendedStopWordsList = ['.', ',',"&", "|","'m","'re","'s","'ll","'d","'ve","'t","s'","o'"]
-files = ["1.txt","2.txt","3.txt","4.txt","5.txt","6.txt","7.txt","8.txt","9.txt","10.txt"]
+files = ["txt/1.txt","txt/2.txt","txt/3.txt","txt/4.txt","txt/5.txt","txt/6.txt","txt/7.txt","txt/8.txt","txt/9.txt","txt/10.txt"]
 
 for i in files:
     f = open(i,"r")
